@@ -1,0 +1,7 @@
+echo "# okuyucu" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main // !!! branchin adini degistiridigi icin yapmadim
+git remote add origin https://github.com/dtarim/gonderici.git
+git push -u origin master
